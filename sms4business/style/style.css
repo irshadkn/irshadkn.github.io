@@ -1,0 +1,433 @@
+body{
+    background-color: white;
+    font-family: 'myriad-pro',Helvetica,Arial,Sans-Serif;
+}
+button {
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #f2c500;
+    color:black;
+    font-weight: bold;
+}
+#logo_area{
+    background-color: white;
+    height: auto;
+    display: inline-block;
+    width: auto;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 20px;
+}
+#logo{
+    background-color: white;
+    width: auto;
+    float: left;
+    padding-right: 360px;
+}
+#logo_img{
+    padding-top: 15px;
+}
+#support{
+    background-color: white;
+    width: auto;
+    float: left;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 16px;
+}
+#support h3{
+    color: #eb9500;
+}
+#support i{
+    color:#c23824;
+    font-weight: bold;
+}
+#support {
+    color:#c23824;
+    font-weight: bold;
+}
+#log{
+    background-color: white;
+    width: auto;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.log_button{
+    color:White;
+    background-color: #eb9500;
+    height:35px;
+    width:90px;
+    margin-right: 15px;
+}
+.sign_button{
+    color:White;
+    background-color: #c23824;
+    height:35px;
+    width:90px;
+}
+#intro{
+    background-image: linear-gradient(white, #f59d00,white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 22px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:130px;
+    border: none;
+    border-radius: 25px;
+}
+#intro h1{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #722a1f;
+    line-height: 10px;
+    animation-name: animation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#intro h3{
+    font-size: 40px;
+    color:red;
+    font-weight: bold;
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#intro p{
+    font-weight: bold;
+    color: #e94b35;
+}
+#content{
+    background-image:linear-gradient(white, #f59d00);
+    height: auto;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: none;
+    border-radius: 25px;
+}
+#content h1{
+    font-weight: 900;
+    font-size: 30px;
+    color: #e94b35;
+}
+#content h3{
+    font-weight: bold;
+    color: #e94b35;
+    font-size: 25px;
+}
+#content p{
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+.details h2{
+    color:#d55400;
+}
+.details #first{
+    color:green;
+    font-weight: bold;
+    font-size: 18px;
+}
+.details #second{
+    color:black;
+    font-weight: bold;  
+    font-size: 18px;
+}
+#price {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#price td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#price tr:nth-child(even){background-color: #f2f2f2;}
+
+#price tr:hover {background-color: #ddd;}
+
+#price th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #d55400;
+    color: white;
+}
+#contact-content{
+    background-color: white;
+    height: auto;
+    padding: 50px 50px;
+    color: rgb(233, 233, 233);
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: arial;
+    display: flex;
+}
+#cc1{
+    flex: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#cc2{
+    flex: 50%;
+}
+#info{
+    background-image: linear-gradient(#ff8800,#c23824);
+    border: none;
+    border-radius: 25px;
+    height: 60px;
+    text-align: center;
+}
+#info-links .bottom-links{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+#info a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#info a:hover{
+    color: #f2c500;
+}
+#copyright{
+    background-color: #d55400;
+    color:white;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+#copy-content{
+    padding-top: 14px;
+}
+#copyright a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#copyright a:hover{
+    color: #f2c500;
+}
+#subscribeScreen
+{
+    text-align: center;
+    width:260px;
+    height:300px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-160px;
+    margin-top:-175px;
+    padding-left: 25px;
+    padding-right:25px;
+    padding-top:25px;
+    padding-bottom:15px;
+    display:none;
+	background-color:#ffd373;
+	border:5px solid #c23824;
+	border-radius:10px;
+}
+.cancel
+{
+    display:block;
+    position:absolute;
+    top:3px;
+    right:2px;
+    background:white;
+    color:black;
+    height:20px;
+    width:20px;
+    font-size:20px;
+    text-decoration:none;
+    text-align:center;
+}
+input[type=text], input[type=email], input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #c23824;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #f2c500;
+}
+
+@keyframes animation1 {
+    0%{color: red;}
+    25%{color: green;}
+    50%{color: brown;}
+    75%{color: blue;}
+    100%{color: red;}
+}
+@keyframes animation2 {
+    0%{padding-left: 0x;}
+    50%{padding-left: 20px;}
+    100%{padding-left: 0px;}
+}
+
+@media(max-width:600px){
+    a{
+        text-decoration: none;
+    }
+    #logo_area{
+        height: auto;
+        display: inline-block;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    #logo{
+        width: 100%;
+        float: none;
+        padding-right: 0px;
+    }
+    #logo_img{
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #support{
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        width: 100%;
+        float: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    #log{
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .log_button{
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        margin-bottom: 15px;
+    }
+    .sign_button{
+        margin:auto;
+        display:block;
+    }
+    #intro{
+        text-align: center;
+        padding-left:10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+    #intro h1{
+        font-size: 20px;
+    }
+    #intro h3{
+        font-size: 30px;
+    }
+    #content{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    #content h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    #content h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    #content p{
+        line-height: 30px;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .details h2{
+        font-size: 18px;
+    }
+    .details #first{
+        font-size: 16px;
+    }
+    .details #second{
+        font-size: 16px;
+    }
+    #price{
+        font-size: 14px;
+    }
+    #price td, #customers th {
+        padding: 0px;  
+    }
+    #contact-content{
+        padding: 0 0;
+        display: block;
+    }
+    #cc1{
+        padding: 10px;
+        margin:10px 10px;
+    }
+    #cc2{
+        padding-left: 10px;
+    }
+    #info{
+        height: auto;
+        font-size: 14px;
+        text-align: left;
+    }
+    #info-links .bottom-links{
+        display: block;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-right: 0;
+    }
+    #copyright{
+        height: auto;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    #copy-content{
+        margin-bottom: 5px;
+    }
+}

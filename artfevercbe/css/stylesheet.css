@@ -1,0 +1,273 @@
+body{
+    background-image: url('../images/tile.jpg');
+}
+*{cursor: url(http://ani.cursors-4u.net/others/oth-9/oth839.cur), auto !important;}
+* {box-sizing: border-box;}
+a {
+    text-decoration: none;
+}
+.centered{
+    text-align: center;
+}
+#frame{
+    background-color: green;
+    width:400px;
+    height:400px;
+}
+#gallpic
+{
+    background-color: red;
+    width:200px;
+    height:200px;
+}
+.img_container1{
+    position: absolute; 
+    top:0;
+    left:0;
+    width:180px;
+}
+.img_container2{
+    position: absolute; 
+    top:600px;
+    right:0;
+    width:250px;
+}
+#top{
+    width:100%;
+    height:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#logo{
+    width: 100%;
+    height: auto;
+    max-width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#slider{
+    /*background-color:blue;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#content{
+    width:100%;
+    height:auto;
+}
+.seperator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.quotes{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 34px;
+    font-weight: bold;
+    color: #c90035;
+    /*text-shadow: 1px 1px 2px black, 0 0 25px #ffc400, 0 0 5px #ff5627;*/
+}
+.sentence{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #93073e;
+}   
+.tags{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+}  
+#services{
+    width: 100%;
+    text-align: center;
+}
+.box{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 680px;
+    display: inline-block;
+    border-radius: 25px;
+    border-style: ridge;
+    border-color: #c90035;
+    border-width: 18px;
+    vertical-align: bottom;
+}
+.box_title{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 26px;
+    color: #c90035;
+    text-shadow: 1px 1px 2px black, 0 0 25px #ffc400, 0 0 5px #ff5627;
+}
+.box_sentence{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 34px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #93073e;
+}
+.services_pic{
+    width: 240px;
+    border-top-style:double;
+    border-bottom-style:double;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top-color:#ff5627;
+    border-bottom-color:#ffc400;
+    border-top-width:8px;
+    border-bottom-width:8px;
+}
+#address{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.address_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 34px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #93073e;
+}
+#bottom{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#93073e;
+    width:100%;
+    height:50px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    color: antiquewhite;
+    border-radius: 50px;
+}
+#contact-content{
+    height: auto;
+    padding: 50px 50px;
+    color: rgb(233, 233, 233);
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: arial;
+    display: flex;
+}
+#cc1{
+    flex: 50%;
+    border-radius: 5px;
+    background-color: #c90035;
+    padding: 20px;
+    color: antiquewhite;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#cc2{
+    flex: 50%;
+}
+input[type=text], input[type=email], input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #ffc400;
+    color: black;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #ff5627;
+    color: antiquewhite;
+}
+.details h2{
+    color:#d55400;
+}
+.details #first{
+    color:green;
+    font-weight: bold;
+    font-size: 18px;
+}
+.details #second{
+    color:black;
+    font-weight: bold;  
+    font-size: 18px;
+}
+.contact_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 34px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #93073e;
+}
+.icon{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    #gallery_pic{
+        width:100%;
+        height:auto;
+    }
+    .img_container1{
+        display: none;
+    }
+    .img_container2{
+        display: none;
+    }
+    .quotes{
+        font-size: 22px;
+    }
+    .sentence{
+        font-size: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .tags{
+        font-size: 12px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+    }
+    .box_title{
+        font-size: 30px;
+    }
+    #contact-content{
+        padding: 0 0;
+        display: block;
+    }
+    #cc1{
+        padding: 10px;
+        margin:10px 10px;
+    }
+    #cc2{
+        padding-left: 10px;
+    }
+}

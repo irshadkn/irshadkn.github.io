@@ -1,0 +1,26 @@
+$(document).ready(function(){
+                $("#b1").click(function(){
+                    $("#b1").addClass("active");
+                    $("#b2").removeClass("active");
+                    $("#b3").removeClass("active");
+                    $("#b4").removeClass("active"); 
+                });
+                $("#b2").click(function(){
+                    $("#b1").removeClass("active");
+                    $("#b2").addClass("active");
+                    $("#b3").removeClass("active");
+                    $("#b4").removeClass("active"); 
+                });
+                $("#b3").click(function(){
+                    $("#b1").removeClass("active");
+                    $("#b2").removeClass("active");
+                    $("#b3").addClass("active");
+                    $("#b4").removeClass("active"); 
+                });
+                $("#b4").click(function(){
+                    $("#b1").removeClass("active");
+                    $("#b2").removeClass("active");
+                    $("#b3").removeClass("active");
+                    $("#b4").addClass("active"); 
+                });
+            });

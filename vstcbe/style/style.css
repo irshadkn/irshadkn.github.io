@@ -1,0 +1,446 @@
+body{
+    background-color: white;
+    font-family: 'myriad-pro',Helvetica,Arial,Sans-Serif;
+}
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.log_button{
+    background-color: #b0eb2f;
+    color:black;
+    font-weight: bold;
+    width:160px;
+}
+.sign_button{
+    background-color: rgb(233, 34, 34);
+    color:white;
+    font-weight: bold;
+}
+.details h2{
+    color:rgb(0, 146, 56);
+}
+.details #first{
+    color:rgb(255, 87, 87);
+    font-weight: bold;
+}
+.details #second{
+    color:gray;
+    font-weight: bold;
+    
+}
+#logo_area{
+    background-color: white;
+    height: auto;
+    display: inline-block;
+    width: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    -webkit-animation: fadein1 3s;
+    -moz-animation: fadein1 3s;
+    -ms-animation: fadein1 3s;
+    -o-animation: fadein1 3s;
+    animation: fadein1 3s;
+}
+#logo{
+    background-color: white;
+    height: 130px;
+    width: auto;
+    float: left;
+    padding-right: 180px;
+}
+#logo_img{
+    padding-top: 15px;
+}
+#sales{
+    background-color: white;
+    height: 130px;
+    width: auto;
+    float: left;
+    padding-left:30px;
+    padding-right: 30px;
+}
+#support{
+    background-color: white;
+    height: 130px;
+    width: auto;
+    float: left;
+    padding-left:30px;
+    padding-right: 30px;
+}
+#sales h3{
+    color:rgb(112, 111, 111);
+}
+#sales i{
+    color:rgb(112, 111, 111);
+}
+#support h3{
+    color:rgb(112, 111, 111);
+}
+#support i{
+    color:rgb(112, 111, 111);
+}
+#login{
+    background-color: white;
+    height: 130px;
+    width: auto;
+    float: left;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+#myTopnav{
+    -webkit-animation: fadein3 3s;
+    -moz-animation: fadein3 3s;
+    -ms-animation: fadein3 3s;
+    -o-animation: fadein3 3s;
+    animation: fadein3 3s;
+}
+#intro{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-animation: fadein2 3s;
+    -moz-animation: fadein2 3s;
+    -ms-animation: fadein2 3s;
+    -o-animation: fadein2 3s;
+    animation: fadein2 3s;
+}
+#content{
+    background-color: yellow;
+    height: 600px;
+}
+#info{
+    background-color: #5c8504;
+    height: 60px;
+    text-align: center;
+}
+#info-links .bottom-links{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+#content{
+    background-color: white;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: arial;
+}
+#price {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#price td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#price tr:nth-child(even){background-color: #f2f2f2;}
+
+#price tr:hover {background-color: #ddd;}
+
+#price th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(0, 146, 56);
+    color: white;
+}
+
+#contact-content{
+    background-color: white;
+    height: auto;
+    padding: 50px 50px;
+    color: rgb(233, 233, 233);
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: arial;
+    display: flex;
+}
+#cc1{
+    flex: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+input[type=text], input[type=email], input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #5c8504;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #b0eb2f;
+}
+#cc2{
+    flex: 50%;
+}
+
+#info a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#info a:hover{
+    color: #dcfa9a;
+}
+#copyright{
+    background-color: #6c9c04;
+    color:white;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+#copy-content{
+    padding-top: 14px;
+}
+#copyright a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#copyright a:hover{
+    color: #dcfa9a;
+}
+
+#subscribeScreen
+{
+    text-align: center;
+    width:260px;
+    height:300px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-155px;
+    margin-top:-175px;
+    padding-left: 25px;
+    padding-right:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+    display:none;
+	background-color:rgb(207, 252, 207);
+	border:5px solid rgb(0, 146, 56);
+	border-radius:10px;
+}
+.cancel
+{
+    display:block;
+    position:absolute;
+    top:3px;
+    right:2px;
+    background:white;
+    color:black;
+    height:20px;
+    width:20px;
+    font-size:20px;
+    text-decoration:none;
+    text-align:center;
+}
+
+
+@media(max-width:600px){
+    body{
+        font-size: 14px;
+    }
+    .details h2{
+        font-size: 18px;
+    }
+    #logo_area{
+        display: inline-block;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-animation: fadein3 3s;
+        -moz-animation: fadein3 3s;
+        -ms-animation: fadein3 3s;
+        -o-animation: fadein3 3s;
+        animation: fadein3 3s;
+    }
+    #logo{
+        height: auto;
+        width: 100%;
+        float: none;
+        padding-right: 0px;
+    }
+    #logo_img{
+        padding-top: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #sales{
+        height: auto;
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    #support{
+        text-align: center;
+        height: auto;
+        width: 100%;
+        float: left;
+        padding-left:0px;
+        padding-right: 0px;
+    }
+    #login{
+        height: auto;
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom:10px;
+    }
+    #intro{
+        font-size: 13px;
+        -webkit-animation: fadein3 3s;
+        -moz-animation: fadein3 3s;
+        -ms-animation: fadein3 3s;
+        -o-animation: fadein3 3s;
+        animation: fadein3 3s;
+    }
+    #content{
+        height: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #contact-content{
+        padding: 0 0;
+        display: block;
+    }
+    #cc1{
+        padding: 10px;
+        margin:10px 10px;
+    }
+    #cc2{
+        padding-left: 10px;
+    }
+    #info{
+        height: auto;
+        font-size: 14px;
+        text-align: left;
+    }
+    #info-links .bottom-links{
+        display: block;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-right: 0;
+    }
+    #copyright{
+        height: auto;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    #copy-content{
+        margin-bottom: 5px;
+    }
+    
+}
+
+@keyframes fadein1 {
+    from { opacity: 0; padding-left: 0px;}
+    to   { opacity: 1; padding-left: 100px;}
+}
+@-moz-keyframes fadein1 {
+    from { opacity: 0; padding-left: 0px;}
+    to   { opacity: 1; padding-left: 100px;}
+}
+@-webkit-keyframes fadein1 {
+    from { opacity: 0; padding-left: 0px;}
+    to   { opacity: 1; padding-left: 100px;}
+}
+@-ms-keyframes fadein1 {
+    from { opacity: 0; padding-left: 0px;}
+    to   { opacity: 1; padding-left: 100px;}
+}
+@-o-keyframes fadein1 {
+    from { opacity: 0; padding-left: 0px;}
+    to   { opacity: 1; padding-left: 100px;}
+}
+
+@keyframes fadein2 {
+    from { opacity: 0; font-size: 0px;}
+    to   { opacity: 1; font-size: 22px ;}
+}
+@-moz-keyframes fadein2 {
+    from { opacity: 0; font-size: 0px;}
+    to   { opacity: 1; font-size: 22px ;}
+}
+@-webkit-keyframes fadein2 {
+    from { opacity: 0; font-size: 0px;}
+    to   { opacity: 1; font-size: 22px ;}
+}
+@-ms-keyframes fadein2 {
+    from { opacity: 0; font-size: 0px;}
+    to   { opacity: 1; font-size: 22px ;}
+}
+@-o-keyframes fadein2 {
+    from { opacity: 0; font-size: 0px;}
+    to   { opacity: 1; font-size: 22px ;}
+}
+
+@keyframes fadein3 {
+    from { opacity: 0; background-color: red;}
+    to   { opacity: 1; background-color: #5c8504;}
+}
+@-moz-keyframes fadein3 {
+    from { opacity: 0; background-color: red;}
+    to   { opacity: 1; background-color: #5c8504;}
+}
+@-webkit-keyframes fadein3 {
+    from { opacity: 0; background-color: red;}
+    to   { opacity: 1; background-color: #5c8504;}
+}
+@-ms-keyframes fadein3 {
+    from { opacity: 0; background-color: red;}
+    to   { opacity: 1; background-color: #5c8504;}
+}
+@-o-keyframes fadein3 {
+    from { opacity: 0; background-color: red;}
+    to   { opacity: 1; background-color: #5c8504;}
+}
